@@ -1,0 +1,21 @@
+Dependencies for Project 'ADCSWTrigger', Target 'ADCSWTrigger': (DO NOT MODIFY !)
+F (.\startup.s)(0x5F55499C)(--cpu Cortex-M4 -g --apcs=interwork -I.\RTE\_ADCSWTrigger-IC:\Keil_v5\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123--pd "__UVISION_VERSION SETA 526" --pd "_RTE_ SETA 1" --pd "TM4C123GH6PM SETA 1"--list .\startup.lst --xref -o .\startup.o --depend .\startup.d)
+F (.\ADCTestMain.c)(0x5F55499C)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --c99-I.\RTE\_ADCSWTrigger-IC:\Keil_v5\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\adctestmain.o --omf_browse .\adctestmain.crf --depend .\adctestmain.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (../inc/ADCSWTrigger.h)(0x5F5549B5)
+I (../inc/tm4c123gh6pm.h)(0x5F5549B9)
+I (../inc/PLL.h)(0x5F5549B8)
+I (../inc/LaunchPad.h)(0x5F5549B7)
+I (../inc/CortexM.h)(0x5F5549B6)
+F (..\inc\ADCSWTrigger.c)(0x5F5549B5)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --c99-I.\RTE\_ADCSWTrigger-IC:\Keil_v5\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\adcswtrigger.o --omf_browse .\adcswtrigger.crf --depend .\adcswtrigger.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\inc\../inc/tm4c123gh6pm.h)(0x5F5549B9)
+F (..\inc\PLL.c)(0x5F5549B8)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --c99-I.\RTE\_ADCSWTrigger-IC:\Keil_v5\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\pll.o --omf_browse .\pll.crf --depend .\pll.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\inc\../inc/PLL.h)(0x5F5549B8)
+I (..\inc\../inc/tm4c123gh6pm.h)(0x5F5549B9)
+F (..\inc\LaunchPad.c)(0x5F5549B7)(-c --cpu Cortex-M4 -g -O0 --apcs=interwork --split_sections --signed_chars -I .. -I ..\..\.. --c99-I.\RTE\_ADCSWTrigger-IC:\Keil_v5\ARM\CMSIS\5.4.0\CMSIS\Core\Include-IC:\Keil_v5\Keil\TM4C_DFP\1.1.0\Device\Include\TM4C123-D__UVISION_VERSION="526" -D_RTE_ -DTM4C123GH6PM -Drvmdk -DPART_LM4F120H5QR-o .\launchpad.o --omf_browse .\launchpad.crf --depend .\launchpad.d)
+I (C:\Keil_v5\ARM\ARMCC\include\stdint.h)(0x599FA01E)
+I (..\inc\../inc/LaunchPad.h)(0x5F5549B7)
+I (..\inc\../inc/tm4c123gh6pm.h)(0x5F5549B9)
+I (..\inc\../inc/CortexM.h)(0x5F5549B6)
